@@ -1,0 +1,7 @@
+POST http://localhost:8088/api/kunde
+Content-Type: application/json
+
+{
+  "email": "ledem@mail.com"
+}
+
