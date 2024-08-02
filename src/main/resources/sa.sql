@@ -2,7 +2,7 @@ CREATE DATABASE SA;
 
 CREATE TABLE KUNDE(
     ID  integer PRIMARY KEY not null AUTO_INCREMENT,
-    Email varchar(50)
+    Email varchar(50) UNIQUE
 );
 
 CREATE TABLE GEFÜHL(

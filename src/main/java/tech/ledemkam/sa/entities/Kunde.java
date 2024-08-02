@@ -7,8 +7,9 @@ import jakarta.persistence.*;
 public class Kunde {
 
     @Id
-    @GeneratedValue(strategy= GenerationType.AUTO)
+    @GeneratedValue(strategy= GenerationType.IDENTITY)
     private int id;
+    @Column(unique = true)
     private String email;
 
     public Kunde() {
